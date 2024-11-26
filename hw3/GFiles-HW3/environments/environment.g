@@ -1,7 +1,7 @@
 world: {}
 
 
-Include: <./rai-robotModels/scenarios/pandaSingle.g>
+Include: <../rai-robotModels/scenarios/pandaSingle.g>
 
 bin (table): {shape: ssBox, Q: [0.0, 0.4, 0.08], size: [0.8, 0.8, 0.06, .02], color: [.6, .6, .6], joint: rigid, friction: .1}
 side1 (bin): {shape: ssBox, Q: [0.36, 0.0, 0.08], size: [0.08, 0.8, 0.16, .02], color: [.6, .6, .6], joint: rigid, friction: .1}
